@@ -1,0 +1,127 @@
+@media(max-width: 586px){
+	.block-dev h2 {		
+		font-size: 30px;		
+	}
+	.block-dev h3 {		
+		font-size: 21px;	
+	}	
+	.services h2 {		
+		font-size: 30px;
+	}
+	.form-check{
+		text-align: left;
+	}
+	.fundo-form {	
+		padding-bottom: 10px;
+	}	
+	.form-list .form-check label span {	
+		font-size: 17px;	
+	 }
+	.form-list input[type=radio] {
+		margin: 8px 8px 0px 14px;
+	}	
+	.btn-success {		
+		width: 100%;
+	}
+	.img-footer {
+		max-width: 50%;		
+	}
+	.fundo-block-dev {		
+		background-size: cover;	
+	}
+	.fundo-bate-papo {		
+		background-size: cover;		
+	}
+	.block-dev h1 {
+		padding-top: 5em;		
+	}
+	.process {		
+		padding: 60px 0px 0px 0px;
+	}
+	.process-background {	
+		height: auto;
+	}
+	.space-process{
+		margin-bottom: 65px;
+	}
+	.logo-branca {
+		max-width: 6em;
+		padding-top: 0px;
+		position: relative;
+    bottom: 4px;
+	}
+	nav.navbar.bootsnav {		
+		background-color: #489AFF !important;	
+	}	
+	#content-wrapper{	
+		position:relative;
+		height: 42em;
+		min-width:100%;
+		min-height:100%;
+	}	
+	.ul-address{
+		padding-left: 0px;
+	}
+	.ul-address li{
+		font-size: 19px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	.block-dev h1 {
+		padding-top: 7em;		
+	}
+	.process-background {	
+		height: 36em;
+	}
+	.logo {
+		margin: 100px 0 30px 0;
+	}
+	.landing h1{
+		margin: 250px 0 60px 0;
+	}	
+}
+
+/* smart-phone ----------- */
+@media (max-width: 767px) {
+	.logo {
+		margin: 40px 0 30px 0;
+	}	
+}	
+
+
+/* iPhone 6 (landscape) ----------- */
+@media (max-width: 667px) {
+	.logo {
+		margin: 30px 0 30px 0;
+	}
+	.landing h1{
+		font-size: 50px;
+		margin: 87px 0 25px 0;
+	}	
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media (max-width: 568px){
+	.logo {
+		margin: 15px 0 15px 0;
+	}
+	.landing h1{
+		font-size: 25px;		
+	}		
+}
+
+/* iPhone 4/5 (portrait) ----------- */
+@media (max-width: 320px) {
+	.logo {
+		margin: 30px 0 20px 0;
+	}
+	.landing h1{
+		margin: 100px 0 35px 0;
+	}	
+	
+}
